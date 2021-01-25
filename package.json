@@ -10,9 +10,9 @@
   "author": "",
   "license": "MPL",
   "dependencies": {
-    "chrome-aws-lambda": "^2.0.1",
-    "chrome-launcher": "^0.10.5",
-    "chrome-remote-interface": "^0.27.1"
+    "chrome-aws-lambda": "^5.5.0",
+    "chrome-launcher": "^0.13.4",
+    "chrome-remote-interface": "^0.28.2"
   },
   "devDependencies": {
     "eslint": "^5.16.0",
