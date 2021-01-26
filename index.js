@@ -157,11 +157,12 @@ module.exports.handler = async function handler(event, context, callback) {
     hub_sid,
     credentials_token,
     host = "jel.dev",
-    duration = 30,
     password,
     move,
     audio
   } = queryStringParameters;
+
+  const duration = parseInt(queryStringParameters.duration || "30");
 
   if (password !== "") {
     return callback(null, {
